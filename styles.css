@@ -67,18 +67,14 @@ body{
 }
 
 
-.picture img {
+.programing  {
     max-width: 100%;
     max-height: 80%;
     margin-top: 10%;
-    margin-right: 20px;
-
-}
-
-.picture{
+    padding-right: 10%;
     grid-row: span 3;
-    padding-right: 5%;
 }
+
 
 .email{
     display: flex;
@@ -145,13 +141,14 @@ body{
 
 .portfolio > img {
     margin-bottom: 15px;
-    width: 60%;
-    height: 50%;
+    max-width: 60%;
+    max-height: 50%;
     align-self: center;
 }
 
 .portfolio > p {
     text-align: center;
+    font-size: 12px;
 }
 
 .portfolio > a { 
@@ -160,7 +157,8 @@ body{
     margin-top: 15px;
     border: 1px solid black;
     padding:  5px 10px;
-    font-weight: bold;;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
 .portfolio > a:hover{

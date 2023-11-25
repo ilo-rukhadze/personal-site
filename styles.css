@@ -241,4 +241,14 @@ body{
         height: 50%;
     }
 
+    .nav-bar > a {
+        font-size: 25px;
+    }
+    .nav-bar{
+        height: 10%;
+    }
+    #portfolio-section{
+        font-size: 25px;
+    }
+
 }

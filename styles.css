@@ -142,13 +142,14 @@ body{
 .portfolio > img {
     margin-bottom: 15px;
     max-width: 60%;
-    max-height: 50%;
-    align-self: center;
+    height: auto;
+    /* align-self: center; */
 }
 
 .portfolio > p {
     text-align: center;
     font-size: 12px;
+    margin: 0px 20px;
 }
 
 .portfolio > a { 
@@ -172,5 +173,71 @@ body{
 }
 
 
+@media (max-height:600px) {
+    .main-text h3{
+        font-size: 30px;
+    }
+    .main-text p {
+        font-size: 20px;
+    }
 
+    .icons img{
+        margin-right: 10px;
+        width:25px;
+        filter:grayscale(100%);
+    }
+    .portfolio > img {
+        display: none;
+        align-self: center;
+    }
 
+    .portfolio > a { 
+        font-size: x-small;
+        text-align: left;
+    }
+}
+
+@media (max-width:800px) {
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 70%;
+        padding-right:0;
+        margin-right: 0;
+    }
+
+    .main-text h3{
+        font-size: 30px;
+        align-self: flex-start;
+    }
+    .main-text p {
+        font-size: 20px;
+    }
+    .main-text {
+        margin-top: 5%;
+        align-items: center;
+    }
+    .programing {
+        max-width: 100%;
+        max-height: 50%;
+        /* justify-self: center; */
+        /* align-self:center ; */
+        padding-right: 0%;
+        margin-top: 0%;
+    }
+
+    .second-page {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio{
+        height: 300px;
+    }
+    .portfolio img{
+        height: 50%;
+    }
+
+}

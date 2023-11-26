@@ -252,3 +252,10 @@ body{
     }
 
 }
+
+@media (max-width:880px) {
+    .main-text h3{
+        font-size: 30px;
+        align-self: flex-start;
+    }
+}

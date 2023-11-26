@@ -195,6 +195,10 @@ body{
         font-size: x-small;
         text-align: left;
     }
+    .programing{
+        max-height: 70%;
+        width: auto;
+    }
 }
 
 @media (max-width:800px) {
